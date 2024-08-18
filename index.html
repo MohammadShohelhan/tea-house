@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House Tailwind Css</title>
+</head>
+<!-- font-family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+  
+<!-- font awosome cdn -->
+<script src="https://kit.fontawesome.com/ff95431dd8.js" crossorigin="anonymous"></script>
+
+<!-- tailwind cdn -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        },
+        fontFamily:{
+          primary: ["Manrope", sans-serif]
+        }
+      }
+    }
+  }
+</script>
+
+<body>
+ <main class=" max-w-screen-xl mx-auto px-16  md:px-28">
+  <section class="flex justify-between items-center  ">
+    <!-- left -->
+    <div>
+      <h1 class="text-5xl font-bold font-primary ">
+        It's good <br>
+        tea time at The <br>
+        Tea House</h1>
+        <p class="w-3/4 text-gray-500 py-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+        </p>
+        <button class="py-3 px-5 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right -rotate-45  text-xl ml-2"></i></button>
+
+    </div>
+    <!-- right -->
+    <div class="relative">
+        <!-- image div -->
+     <div>
+      <img class="md:w-full" src="./images/banner.png" alt="">
+     </div>
+        <!-- card div -->
+         <div class=" absolute md:top-80 md:left-[100px] bg-white flex items-center gap-x-2 shadow-lg rounded-lg px-3 py-2 md:px-5 md:py-3 ">
+          <div><i class="fa-solid fa-star text-3xl text-amber-500"></i></div>
+          <div>
+            <h2 class="text-3xl font-bold">5.00</h2>
+            <p class="text-gray-500">Trust Pilot Ratings</p>
+          </div>
+         </div>
+    </div>
+  </section>
+
+  <!-- another section -->
+   <section>
+    <div class="text-center mt-16">
+      <h2 class="text-3xl font-bold uppercase">Our Featured Products</h2>
+      <p class="text-gray-500 mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+    </div>
+   <div class="flex gap-5 my-8 ">
+      <div class="  px-10 py-6 shadow-lg text-center mx-auto  rounded-xl bg-[#F4F4F4]">
+      <img class="text-center mx-auto" src="./images/tea-1.png" alt="">
+      <h3 class="font-bold text-2xl py-4">Milk Shake</h3>
+      <p class="text-gray-500 ">Creamer could be <br> replaced by fresh milk</p>
+      </div>
+      <div class="  px-10 py-6 shadow-lg text-center mx-auto  rounded-xl bg-[#F4F4F4]">
+        <img class="text-center mx-auto" src="./images/tea-2.png" alt="">
+        <h3 class="font-bold text-2xl py-4">Milk Shake</h3>
+        <p class="text-gray-500 ">Creamer could be <br> replaced by fresh milk</p>
+        </div>
+      <div class="  px-10 py-6 shadow-lg text-center mx-auto  rounded-xl bg-[#F4F4F4]">
+          <img class="text-center mx-auto" src="./images/tea-3.png" alt="">
+          <h3 class="font-bold text-2xl py-4">Milk Shake</h3>
+          <p class="text-gray-500 ">Creamer could be <br> replaced by fresh milk</p>
+      </div>
+      <div class="  px-10 py-6 shadow-lg text-center mx-auto  rounded-xl bg-[#F4F4F4]">
+            <img class="text-center mx-auto " src="./images/tea-4.png" alt="">
+            <h3 class="font-bold text-2xl py-4">Milk Shake</h3>
+            <p class="text-gray-500 ">Creamer could be <br> replaced by fresh milk</p>
+      </div>
+     
+   </div>
+   </section>
+ </main>
+
+  
+</body>
+</html>
