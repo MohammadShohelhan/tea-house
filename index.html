@@ -33,11 +33,14 @@
 </script>
 
 <body>
- <main class=" max-w-screen-xl mx-auto px-16  md:px-28">
-  <section class="flex justify-between items-center  ">
+ <main class=" max-w-screen-xl mx-auto px-8  lg:px-28">
+
+
+
+  <section class="md:flex md:justify-between md:items-center mt-8 ">
     <!-- left -->
-    <div>
-      <h1 class="text-5xl font-bold font-primary ">
+    <div class=" items-center">
+      <h1 class="text-4xl lg:text-5xl font-bold font-primary ">
         It's good <br>
         tea time at The <br>
         Tea House</h1>
@@ -47,21 +50,23 @@
 
     </div>
     <!-- right -->
-    <div class="relative">
-        <!-- image div -->
+    <div class="relative border mt-12">
+     
      <div>
-      <img class="md:w-full" src="./images/banner.png" alt="">
+      <img class="mx-auto md:w-full" src="./images/banner.png" alt="">
      </div>
         <!-- card div -->
-         <div class=" absolute md:top-80 md:left-[100px] bg-white flex items-center gap-x-2 shadow-lg rounded-lg px-3 py-2 md:px-5 md:py-3 ">
+         <div class=" absolute flex items-center gap-x-2 bg-white shadow-lg rounded-lg py-2 px-2  z-100 top-44 lg:top-60 lg:left-20 xl:top-80 xl:left-36">
           <div><i class="fa-solid fa-star text-3xl text-amber-500"></i></div>
           <div>
-            <h2 class="text-3xl font-bold">5.00</h2>
+            <h2 class="text-2xl font-bold md:text-3xl">5.00</h2>
             <p class="text-gray-500">Trust Pilot Ratings</p>
           </div>
          </div>
     </div>
   </section>
+  
+
 
   <!-- another section -->
    <section>
@@ -69,8 +74,8 @@
       <h2 class="text-3xl font-bold uppercase">Our Featured Products</h2>
       <p class="text-gray-500 mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
     </div>
-   <div class="flex gap-5 my-8 ">
-      <div class="  px-10 py-6 shadow-lg text-center mx-auto  rounded-xl bg-[#F4F4F4]">
+   <div class="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div class="px-10 py-6 shadow-lg text-center mx-auto  rounded-xl bg-[#F4F4F4]">
       <img class="text-center mx-auto" src="./images/tea-1.png" alt="">
       <h3 class="font-bold text-2xl py-4">Milk Shake</h3>
       <p class="text-gray-500 ">Creamer could be <br> replaced by fresh milk</p>
@@ -92,8 +97,205 @@
       </div>
      
    </div>
-   </section>
+   </section> 
+
+
+
+
+    <section class="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-16 ">
+    <!-- left -->
+    <div class="grid grid-cols-2 grid-rows-3  gap-4 ">
+
+           <div class="h-40 bg-gradient-to-r from-red-200 to-white rounded-lg shadow-sm"></div>
+           <div class="shadow-lg row-span-2 w-full flex items-center justify-center rounded-lg ">
+                <img class="mx-auto items-center justify-center  " src="./images/fresh-1.png" alt="">
+          </div>
+         
+          <div class="shadow-lg row-span-2 w-full flex items-center justify-center rounded-lg ">
+               <img class="mx-auto items-center justify-center  " src="./images/fresh-2.png" alt="">
+         </div>
+         <div class="h-40 bg-gradient-to-r from-gray-200 to-white rounded-lg shadow-sm"></div>
+
+
+     </div>
+     <!-- right -->
+     <div class=" ">
+        <h2 class="text-3xl font-bold py-4">Great Tea, Freshly <br> Presented</h2>
+        <p class="text-gray-500 py-4">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+        <h3 class="text-2xl font-bold py-3">Unique Taste</h3>
+        <p class="text-gray-500">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+        <h3 class="text-2xl font-bold py-3">Premium Quality</h3>
+        <p  class="text-gray-500 py-4">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+     </div>
+
+   </section> 
+   
+   
+
+   <section class="px-4 py-8 mt-16 lg:flex lg:gap-16 md:justify-between lg:pl-8 pb-16 rounded-xl  bg-gradient-to-r from-orange-500 to-red-500 text-white ">
+    <!-- left -->
+    <div class="flex items-center justify-center  w-full lg:w-1/2">
+        <div class="">
+            <h2 class="text-3xl font-bold py-4">Meet Our Super Clients</h2>
+            <p class="font-normal py-4 w-3/4">The meaning of gong cha is Chinese is to provide the best tea to emperor from all possessions. It represents the highest quality and self-expectation. Establishing in 2006, Gong cha had.</p>
+            <button class="px-8 py-2 text-red-800 font-bold bg-white rounded-lg shadow-sm">Show all</button>
+        </div>
+    </div>
+
+    <!-- right -->
+    <div class="relative  w-full lg:w-1/2 flex justify-center">
+        <!-- main-card -->
+        <div class="hidden lg:block absolute top-44 -left-12 bg-white rounded-lg p-8 pb-4 opacity-100 z-50 w-5/6">
+            <div class="absolute -top-6 -left-6 bg-white rounded-full">
+                <img class="p-1" src="./images/client.png" alt="">
+            </div>
+            <p class="text-gray-500">The meaning of gong cha is Chinese is to provide the best tea to emperor from all possessions. It represents </p>
+            <div class="flex justify-between">
+                <div>
+                    <h3 class="text-xl text-black font-bold py-2">Alexa Him</h3>
+                    <p class="text-gray-500">Businessman</p>
+                </div>
+                <img class="w-6 h-6 mt-16" src="./images/circles.png" alt="">
+            </div>
+        </div>
+
+        <!-- card container -->
+        <div class="flex flex-col items-end space-y-16 mt-16">
+            <!-- 1st card -->
+            <div class="relative bg-white rounded-lg p-8 opacity-45 mx-auto w-5/6 lg:w-5/6 pb-4">
+                <div class="absolute -top-6 -left-6 bg-white rounded-full ">
+                    <img class="p-1" src="./images/client.png" alt="">
+                </div>
+                <p class="text-gray-500">The meaning of gong cha is Chinese is to provide the best tea to emperor from all possessions. It represents </p>
+                <div class="flex justify-between">
+                    <div>
+                        <h3 class="text-xl text-black font-bold py-2">Alexa Him</h3>
+                        <p class="text-gray-500">Businessman</p>
+                    </div>
+                    <img class="w-6 h-6 mt-16" src="./images/circles.png" alt="">
+                </div>
+            </div>
+            <!-- 2nd card -->
+            <div class="relative bg-white rounded-lg p-8 opacity-100 lg:opacity-45 mx-auto w-5/6 lg:w-5/6 pb-4">
+                <div class="absolute -top-6 -left-6 bg-white rounded-full">
+                    <img class="p-1" src="./images/client.png" alt="">
+                </div>
+                <p class="text-gray-500">The meaning of gong cha is Chinese is to provide the best tea to emperor from all possessions. It represents </p>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h3 class="text-xl text-black font-bold py-2">Alexa Him</h3>
+                        <p class="text-gray-500">Businessman</p>
+                    </div>
+                    <img class="w-6 h-6 mt-16" src="./images/circles.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+  <section >
+    <div class="text-center mt-16">
+           <h2 class="text-3xl font-bold py-4">News and events</h2>
+           <p class="w-3/4 mx-auto text-gray-500">there are many varriations of passages of passages of lorem lpsum  but the majrity of have suffered alteration in some from ,by injeced human, or random words whichs dont looks even slihts believe  </p>
+
+    </div>
+    <div class="mt-16 flex flex-col items-center justify-center gap-8 md:flex-row md:flex-wrap">
+      <!-- card-1 -->
+      <div class="w-80 p-4 pb-8 shadow-lg rounded-lg">
+        <div>
+          <img class="rounded-xl h-40 mx-auto" src="./images/news-1.png" alt="">
+          <p class="text-gray-500 py-4">Feb 05, 2024</p>
+          <h3 class="text-2xl font-bold">Collecting 8 points for discount</h3>
+          <p class="text-gray-500 py-4">There are many variations of passages of lorem ipsum available.</p>
+          <h4 class="text-xl font-bold">Learn More</h4>
+        </div>
+      </div>
+      <!-- card-2 -->
+      <div class="w-80 p-4 pb-8 shadow-lg rounded-lg">
+        <img class="rounded-xl h-40 mx-auto" src="./images/news-2.png" alt="">
+        <p class="text-gray-500 py-4">Feb 05, 2024</p>
+        <h3 class="text-2xl font-bold">Collecting 8 points for discount</h3>
+        <p class="text-gray-500 py-4">There are many variations of passages of lorem ipsum available.</p>
+        <h4 class="text-xl font-bold">Learn More</h4>
+      </div>
+      <!-- card-3 -->
+      <div class="w-80 p-4 pb-8 shadow-lg rounded-lg">
+        <img class="rounded-xl h-40 mx-auto" src="./images/news-3.png" alt="">
+        <p class="text-gray-500 py-4">Feb 05, 2024</p>
+        <h3 class="text-2xl font-bold">Collecting 8 points for discount</h3>
+        <p class="text-gray-500 py-4">There are many variations of passages of lorem ipsum available.</p>
+        <h4 class="text-xl font-bold">Learn More</h4>
+      </div>
+    </div>
+    
+    
+
+  </section>
+
  </main>
+ <footer class="mt-16 bg-gradient-to-r from-red-100 to-red-300 ">
+          <div class="w-9/12 mx-auto py-8 px-8  lg:px-28">
+            <!-- first-row -->
+            <div class="flex justify-between ">
+              <img class="w-12 h-12" src="./images/cup.png" alt="">
+              <div class="flex items-center gap-4">
+                   <h4 class="font-semibold">Ready to Get started ?</h4>
+                   <button class="py-2 px-4 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg text-white font-bold">Get Start</button>
+              </div>
+                
+            
+            </div>
+             <!-- 2nd-row -->
+              <div class="mt-16  grid gap-8 justify-between items-center grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 ">
+
+                    <div class="mx-auto">
+                      <h3 class="font-bold">Quick Link</h3>
+                      <ul>
+                        <li class="text-gray-500 py-1">Home</li>
+                        <li class="text-gray-500 py-1">About us</li>
+                        <li class="text-gray-500 py-1">Insurance</li>
+                        <li class="text-gray-500 py-1">Privacy Policy</li>
+                      </ul>
+                    </div>
+                    <div class="mx-auto">
+                      <h3 class="font-bold">Our service</h3>
+                      <ul>
+                        <li class="text-gray-500 py-1">Life insurance</li>
+                        <li class="text-gray-500 py-1">Car insurance</li>
+                        <li class="text-gray-500 py-1">Health insurance</li>
+                        <li class="text-gray-500 py-1">House insurance</li>
+                      </ul>
+                    </div>
+                    <div class="mx-auto">
+                      <h3 class="font-bold">Help</h3>
+                      <ul>
+                        <li class="text-gray-500 py-1">FAQs</li>
+                        <li class="text-gray-500 py-1">Contact Us</li>
+                        
+                      </ul>
+                    </div>
+                    <div class="mx-auto ">
+                      <h3 class="text-xl font-bold">Subscribe to our <br> newsletter</h3>
+                      <input class="mt-4 bg-transparent border-b border-gray-400 pb-2 outline-none foc" placeholder="Email address" type="text">
+                      <div class="mt-4 flex gap-4 text-2xl transition">
+                        <i class="fa-brands fa-facebook opacity-50 hover:opacity-100 transition"></i>
+                        <i class="fa-brands fa-github opacity-50 hover:opacity-100 transition"></i>
+                        <i class="fa-brands fa-youtube opacity-50 hover:opacity-100 transition "></i>
+                      </div>
+                    </div>
+
+                    
+                     
+              </div>
+              
+              <div class="text-gray-500 text-center mt-16"><p>© 2027 UIDesign.to - All rights reserved.</p></div>
+
+
+
+          </div>
+ </footer>
 
   
 </body>
